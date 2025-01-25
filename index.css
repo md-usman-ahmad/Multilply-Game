@@ -1,0 +1,56 @@
+body{
+    background-color: yellow;
+}
+.container,.row{
+    height: 100vh;
+}
+.row{
+    padding-top: 10%;
+}
+input{
+    border: 3px solid rgb(0, 128, 0);
+    padding: 10px 20px 10px 20px;
+}
+input::placeholder {
+    font-size: 26px;   
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align:center;
+    /* text-shadow: 2px 2px rgb(2, 15, 2); */
+}
+input[type="text"],p {
+    color: green; 
+    font-weight:bold;
+    font-size:large;
+    text-align: center; /* Center align text within the input field */  
+    
+}
+#submitbtn:hover {
+    background-color: #45a049;
+}
+#submitbtn,#startbtn{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: green;
+    font-weight: 600;
+    font-size: large;
+    text-shadow: 2px 2px black;
+}
+#submitbtn:disabled{
+    cursor: not-allowed;
+    /* pointer-events: all; */
+}
+#startbtn{
+    width: 100%;
+    height: 40px;
+    color: white;
+    background-color: rgb(247, 0, 0);
+    font-weight: 600;
+    font-size: large;
+    text-shadow: 2px 2px black;
+}       
+#timer{
+    color: red; 
+    font-weight:bold;
+    text-align: center;
+}
